@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-@Configuration
+@Configuration //esta clase HABILITA el cliente HTTP por donde vamos a hacer la REQUEST con la API
 public class RestTemplateConfig {
 
     @Bean
